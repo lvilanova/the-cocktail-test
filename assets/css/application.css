@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(lib/normalize.7.0.0.css);
@@ -79,46 +80,11 @@ body {
   height: 450px; }
 
 .block ul {
-  padding-left: 16px; }
-
-.option {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-.option:after {
-  content: "";
-  clear: both; }
-
-.option__select label {
-  bottom: 1px;
-  cursor: pointer;
-  display: block;
-  font-size: 0;
-  left: 1px;
-  position: absolute;
-  right: 1px;
-  text-indent: 100%;
-  top: 1px;
-  white-space: nowrap; }
-
-.option input:focus + label {
-  outline: 2px dotted #21b4d0; }
-
-.option input:checked + label {
-  outline: 4px solid #21b4d0; }
-
-.option input:checked + label:after {
-  bottom: -10px;
-  content: "";
-  display: inline-block;
-  height: 20px;
-  position: absolute;
-  right: -10px;
-  width: 20px; }
-
-@-moz-document url-prefix() {
-  .option input:checked + label:after {
-    bottom: 0;
-    right: 0;
-    background-color: #21b4d0; } }
+  padding-left: 16px;
+  list-style: none; }
+  .block ul li::before {
+    content: "•";
+    color: grey;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; }
