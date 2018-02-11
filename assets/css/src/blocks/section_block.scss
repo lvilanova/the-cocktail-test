@@ -1,0 +1,10 @@
+//mobile first
+.block{
+    display:inline-block;
+    border:1px solid $border-block;
+    height:450px;
+}
+
+@media only screen and (min-width: $small-desktop) {
+
+}

@@ -1,6 +1,7 @@
 // Colors
 $c-primary:   #D52B1E;
 $c-secondary: #263746; 
+$border-block: #004d99;
 
 // Typography
 $f-sans:  'flamabasic',      sans-serif;
@@ -15,7 +16,8 @@ $f-ultra: 'flamaultralight', sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
 $roboto-slab: 'Roboto Slab', sans-serif;   
-$roboto: 'Roboto', sans-serif;   
+$roboto: 'Roboto', sans-serif; 
+
 
 // MediaQueries Breakpoints
 // See https://github.com/carloscabo/mqbe and ./utils for both js and sass media queries helpers
