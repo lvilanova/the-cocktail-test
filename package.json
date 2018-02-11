@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/lvilanova/the-cocktail-test#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-variables": "^1.1.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.7.2"
   }
 }
