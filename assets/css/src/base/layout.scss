@@ -21,6 +21,11 @@ body {
     @extend %clearfix;
   }
 
+  .content{
+    background-color:$grey-light;
+    box-shadow: 0px 2px $grey;
+    border-radius:3px;
+  }
   .title_bold:after{
     content:url('../img/star-orange.svg');
     padding-left: 8px;
@@ -28,11 +33,5 @@ body {
  
   @media only screen and (min-width: $small-desktop) {
   
-      body{
-        padding:40px;
-      }
-      .wrapper{
-        padding-left: 32px;
-        padding-right: 32px;
-      }
+     
   }
