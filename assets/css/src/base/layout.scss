@@ -25,6 +25,7 @@ body {
     background-color:$grey-light;
     box-shadow: 0px 2px $grey;
     border-radius:3px;
+    padding-top:$sm-spacing;
   }
   .title_bold:after{
     content:url('../img/star-orange.svg');
