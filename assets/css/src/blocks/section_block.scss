@@ -2,7 +2,14 @@
 .block{
     display:inline-block;
     border:1px solid $border-block;
+    padding:16px;
     height:450px;
+}
+
+.block{
+    ul{
+        padding-left:$lg-spacing;
+    }
 }
 
 @media only screen and (min-width: $small-desktop) {

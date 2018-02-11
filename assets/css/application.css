@@ -93,4 +93,8 @@ body {
 .block {
   display: inline-block;
   border: 1px solid #004d99;
+  padding: 16px;
   height: 450px; }
+
+.block ul {
+  padding-left: 16px; }
