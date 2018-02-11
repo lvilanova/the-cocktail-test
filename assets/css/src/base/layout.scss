@@ -1,7 +1,7 @@
 body {
-    padding: 40px;
     background-color: #fafafa;
     font-family:$roboto;
+    padding:0;
   }
   
   .row {
@@ -13,8 +13,8 @@ body {
   .wrapper {
     width: 100%;
     max-width: $medium-desktop;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 0;
+    padding-right: 0;
     margin-right: auto;
     margin-left: auto;
     clear: both;
@@ -26,3 +26,13 @@ body {
     padding-left: 8px;
   }
  
+  @media only screen and (min-width: $small-desktop) {
+  
+      body{
+        padding:40px;
+      }
+      .wrapper{
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+  }
