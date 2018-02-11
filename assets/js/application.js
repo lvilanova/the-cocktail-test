@@ -5,5 +5,5 @@ $(document).ready(function () {
     for (i = 0; i < content.length; i++) {
         content[i].style.display = "none";
     }
-    document.getElementById('tab1').style.display = "block";
+    document.getElementById('tab2').style.display = "block";
 });
