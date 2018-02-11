@@ -1,17 +1,11 @@
 $(document).ready(function () {
+    //here manage displays tabs, tab1 is always display by default
+    document.getElementById('tab1').style.display = "block";
 
-    function navTab(evt, numberTab) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("content");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(numberTab).style.display = "block";
-        evt.currentTarget.className += " active";
+    var i, content;
+    content = document.getElementsByClassName("content");
+    for (i = 0; i < content.length; i++) {
+        content[i].style.display = "none";
     }
 
 });

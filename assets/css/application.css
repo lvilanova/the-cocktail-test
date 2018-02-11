@@ -61,7 +61,9 @@ body {
   background-color: #f2f2f2;
   box-shadow: 0px 2px #a6a6a6;
   border-radius: 3px;
-  padding-top: 4px; }
+  padding-top: 4px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s; }
 
 .title_bold:after {
   content: url("../img/star-orange.svg");
@@ -189,3 +191,9 @@ body {
     .tab button.active {
       color: #004080;
       border-bottom: 2px solid #004080; }
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
