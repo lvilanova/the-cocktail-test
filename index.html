@@ -27,11 +27,11 @@
         <div class="wrapper">
 
             <div class="tab">
-                <button class="tablinks active" onclick="openCity(event, 'tab1')">Tab 1</button>
-                <button class="tablinks" onclick="openCity(event, 'tab2')">Tab 2</button>
+                <button class="tablinks active" onclick="navTab(event, 'tab1')">Tab 1</button>
+                <button class="tablinks" onclick="navTab(event, 'tab2')">Tab 2</button>
             </div>
 
-            <div class="content">
+            <div class="content " id="tab1">
                 <p class="title">HOTEL
                     <span class="title_bold">Mieres del Camín Apartamentos</span>
                 </p>
@@ -132,13 +132,32 @@
                 </div>
                 <!--end flex-grid-->
             </div>
+            <div class="content" id="tab2">
+
+            </div>
             <!--end content-->
         </div>
         <!--end wrapper-->
     </div>
 
-
+    <script src="assets/js/src/lib/jquery-2.2.4.min.js"></script>
     <script src="assets/js/application.js"></script>
+    <script>
+
+        function navTab(evt, numberTab) {
+            var i, content, tablinks;
+            content = document.getElementsByClassName("content");
+            for (i = 0; i < content.length; i++) {
+                content[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(numberTab).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
 </body>
 
 </html>
