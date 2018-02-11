@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(lib/normalize.7.0.0.css);
 .hide-on-desktop,
 .responsive-only,
@@ -38,7 +40,8 @@
 
 body {
   padding: 40px;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif; }
 
 .row {
   width: 100%;

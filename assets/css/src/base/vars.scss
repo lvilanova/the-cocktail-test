@@ -9,6 +9,14 @@ $f-semib: 'flamasemibold',   sans-serif;
 $f-light: 'flamalight',      sans-serif;
 $f-ultra: 'flamaultralight', sans-serif;
 
+//Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700); 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+$roboto-slab: 'Roboto Slab', sans-serif;   
+$roboto: 'Roboto', sans-serif;   
+
 // MediaQueries Breakpoints
 // See https://github.com/carloscabo/mqbe and ./utils for both js and sass media queries helpers
 $mobile: 767px;
