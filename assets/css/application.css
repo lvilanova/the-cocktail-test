@@ -57,6 +57,10 @@ body {
   margin-left: auto;
   clear: both; }
 
+.title_bold:after {
+  content: url("../img/star-orange.svg");
+  padding-left: 8px; }
+
 /* Grid */
 .col {
   flex-basis: 100%; }
@@ -73,18 +77,37 @@ body {
   ._5 {
     flex: 5; } }
 
+.title {
+  text-align: center;
+  color: #004080;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 24px; }
+  .title .title_bold {
+    font-weight: bold; }
+
 .block {
-  border: 1px solid #004d99;
+  border: 1px solid #004080;
   padding: 16px;
   margin: 16px;
   height: 450px; }
+  .block .block__title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0066cc;
+    text-align: center; }
 
 .block ul {
   padding-left: 16px;
   list-style: none; }
+  .block ul li {
+    margin-bottom: 16px; }
   .block ul li::before {
     content: "•";
     color: grey;
     display: inline-block;
     width: 1em;
     margin-left: -1em; }
+
+@media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 30px; } }
