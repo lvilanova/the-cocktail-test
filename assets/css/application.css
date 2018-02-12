@@ -65,15 +65,15 @@ body {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s; }
 
-.title_bold:after {
-  content: url("../img/star-orange.svg");
-  padding-left: 8px; }
-
 .border_grey {
   border: 1px solid #f2f2f2; }
 
 .no_bt {
   border-top: 0 !important; }
+
+.txt_sm {
+  color: #004080;
+  font-size: 12px; }
 
 /* Grid flex-box*/
 .col {
@@ -100,6 +100,9 @@ body {
   font-size: 24px; }
   .title .title_bold {
     font-weight: bold; }
+    .title .title_bold:after {
+      content: url("../img/star-orange.svg");
+      padding-left: 8px; }
 
 .block {
   position: relative;
@@ -210,6 +213,32 @@ body {
   background-color: #fff;
   padding: 16px;
   border: 1px solid #f2f2f2; }
+  .content_tab2 .content_tab2__block {
+    padding-bottom: 16px; }
+  .content_tab2 .txt_sm {
+    padding-left: 16px; }
+  .content_tab2 .col {
+    padding: 16px; }
+  .content_tab2 .title {
+    color: #4da6ff;
+    font-size: 24px;
+    text-align: left; }
+    .content_tab2 .title:before {
+      content: url("../img/angle-down-blue.svg");
+      padding-right: 8px; }
+  .content_tab2 .tab2__title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto Slab", sans-serif;
+    color: #004080; }
+  .content_tab2 .tab2__text {
+    font-size: 14px;
+    color: #a6a6a6; }
+  .content_tab2 .tab2__link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4da6ff;
+    text-decoration: none; }
 
 .img {
   width: 100%;
