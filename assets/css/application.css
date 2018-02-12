@@ -69,17 +69,25 @@ body {
   content: url("../img/star-orange.svg");
   padding-left: 8px; }
 
+.border_grey {
+  border: 1px solid #f2f2f2; }
+
+.no_bt {
+  border-top: 0 !important; }
+
 /* Grid flex-box*/
 .col {
   flex-basis: 100%; }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
   .flex-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; }
   .col {
     flex: 1; }
+  ._2 {
+    flex: 2; }
   ._25 {
     flex: 2.5; }
   ._5 {
@@ -197,3 +205,15 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.content_tab2 {
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #f2f2f2; }
+
+.img {
+  width: 100%;
+  height: auto; }
+
+.border_grey {
+  border: 1px solid #f2f2f2; }
