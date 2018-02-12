@@ -1,54 +1,54 @@
 body {
-    background-color: #fafafa;
-    font-family:$roboto;
-    padding:0;
-  }
-  
-  .row {
-    width: 100%;
-    clear: both;
-    @extend %clearfix; 
-  }
-  
-  .wrapper {
-    width: 100%;
-    max-width: $medium-desktop;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    clear: both;
-    @extend %clearfix;
-  }
-
-  .content{
-    background-color:$grey-light;
-    box-shadow: 0px 2px $grey;
-    border-radius:3px;
-    padding-top:$sm-spacing;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-  }
- 
-  .border_grey{
-    border:1px solid $grey-light;
+  background-color: #fafafa;
+  font-family: $roboto;
+  padding: 0;
 }
 
-.no_bt{
-  border-top:0!important;
-}
-.no_bb{
-  border-bottom:0!important;
-}
-.txt_sm{
-  color:$blue;
-  font-size:12px;
+.row {
+  width: 100%;
+  clear: both;
+  @extend %clearfix;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: $medium-desktop;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  @extend %clearfix;
+}
 
-  @media only screen and (min-width: $small-desktop) {
-    .pt-bg{
-      padding-top:$bg-spacing;
-    }
-     
+.content {
+  background-color: $grey-light;
+  box-shadow: 0px 2px $grey;
+  border-radius: 3px;
+  padding-top: $sm-spacing;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+.border_grey {
+  border: 1px solid $grey-light;
+}
+
+.no_bt {
+  border-top: 0 !important;
+}
+
+.no_bb {
+  border-bottom: 0 !important;
+}
+
+.txt_sm {
+  color: $blue;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: $small-desktop) {
+  .pt-bg {
+    padding-top: $bg-spacing;
   }
+}

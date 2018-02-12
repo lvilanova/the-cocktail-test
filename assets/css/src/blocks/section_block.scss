@@ -1,60 +1,57 @@
 //mobile first
-.title{
+.title {
     text-align: center;
-    color:$blue;
-    font-family:$roboto-slab;
-    font-size:24px;
-    .title_bold{
-        font-weight:bold;
-        &:after{
-            content:url('../img/star-orange.svg');
+    color: $blue;
+    font-family: $roboto-slab;
+    font-size: 24px;
+    .title_bold {
+        font-weight: bold;
+        &:after {
+            content: url('../img/star-orange.svg');
             padding-left: 8px;
         }
     }
 }
 
-
-
-.block{
-    position:relative;
-    background-color:$white;
-    border:1px solid $blue;
-    padding:$sm-spacing $lg-spacing;
-    margin:$lg-spacing;
-    min-height:580px;
-    height:auto;
-    ul{
-        padding-left:$lg-spacing;
+.block {
+    position: relative;
+    background-color: $white;
+    border: 1px solid $blue;
+    padding: $sm-spacing $lg-spacing;
+    margin: $lg-spacing;
+    min-height: 580px;
+    height: auto;
+    ul {
+        padding-left: $lg-spacing;
         list-style: none;
-        font-size:14px;
-        li{
-            margin-bottom:$lg-spacing;
+        font-size: 14px;
+        li {
+            margin-bottom: $lg-spacing;
         }
-        li::before{
-            content:"•";
-            color:grey;
-            display:inline-block;
-            width:1em;
-            margin-left:-1em;
+        li::before {
+            content: "•";
+            color: grey;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
         }
     }
-    .block__title{
-        font-weight:bold;
-        font-size:16px;
-        color:$blue-light;
+    .block__title {
+        font-weight: bold;
+        font-size: 16px;
+        color: $blue-light;
         text-align: center;
     }
-    .block__radio{
-        position:absolute;
-        bottom:0;
+    .block__radio {
+        position: absolute;
+        bottom: 0;
         background-color: $grey-light;
-        padding:$lg-spacing;
-        margin-bottom:$lg-spacing;
+        padding: $lg-spacing;
+        margin-bottom: $lg-spacing;
     }
 }
 
-
-.checkcontainer{
+.checkcontainer {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -64,16 +61,16 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    color:$grey;
+    color: $grey;
 }
 
-.checkcontainer input{
+.checkcontainer input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
 
-.radiobtn{
+.radiobtn {
     position: absolute;
     top: 0;
     left: 0;
@@ -83,7 +80,7 @@
     border-radius: 50%;
 }
 
-.checkcontainer .radiobtn:after{
+.checkcontainer .radiobtn:after {
     top: 9px;
     left: 9px;
     width: 8px;
@@ -97,14 +94,17 @@
     position: absolute;
     display: none;
 }
-.checkcontainer input:checked ~ .radiobtn {
+
+.checkcontainer input:checked~.radiobtn {
     background-color: $green;
 }
-.checkcontainer input:checked ~ .radiobtn:after {
+
+.checkcontainer input:checked~.radiobtn:after {
     display: block;
 }
+
 @media only screen and (min-width: $small-desktop) {
-    .title{
-        font-size:30px;
+    .title {
+        font-size: 30px;
     }
 }

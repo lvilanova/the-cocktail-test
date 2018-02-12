@@ -2,7 +2,6 @@
     background-color: $white;
     padding: $lg-spacing;
     border: 1px solid $grey-light;
-
     .content_tab2__block {
         position: relative;
         padding-bottom: $lg-spacing;
@@ -26,6 +25,7 @@
     ul {
         font-size: 14px;
         color: $grey;
+        line-height: 22px;
     }
     .tab2__title {
         font-size: 18px;
@@ -52,6 +52,21 @@
             padding-left: $lg-spacing;
         }
     }
+    .flex-grid {
+        &.border_grey {
+            position: relative;
+        }
+    }
+    .content_tab2__note {
+        display: inline-block;
+        font-size: 14px;
+        color: $blue;
+    }
+}
+
+.grid-custom {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .img {
@@ -65,14 +80,15 @@
 
 @media only screen and (min-width: $small-desktop) {
     .content_tab2 {
-        .col{
+        .col {
             padding-bottom: $lg-spacing;
-
         }
-        .tab2__link{
-            position:absolute;
+        .tab2__link {
+            position: absolute;
         }
-       
     }
-    
+    .content_tab2__note {
+        display: inline-block;
+        padding-left: $bg-spacing;
+    }
 }

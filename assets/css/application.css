@@ -237,7 +237,8 @@ body {
       padding-right: 8px; }
   .content_tab2 ul {
     font-size: 14px;
-    color: #a6a6a6; }
+    color: #a6a6a6;
+    line-height: 22px; }
   .content_tab2 .tab2__title {
     font-size: 18px;
     font-weight: bold;
@@ -259,6 +260,16 @@ body {
       position: relative;
       top: 4px;
       padding-left: 16px; }
+  .content_tab2 .flex-grid.border_grey {
+    position: relative; }
+  .content_tab2 .content_tab2__note {
+    display: inline-block;
+    font-size: 14px;
+    color: #004080; }
+
+.grid-custom {
+  width: 90%;
+  margin: 0 auto; }
 
 .img {
   width: 100%;
@@ -271,4 +282,7 @@ body {
   .content_tab2 .col {
     padding-bottom: 16px; }
   .content_tab2 .tab2__link {
-    position: absolute; } }
+    position: absolute; }
+  .content_tab2__note {
+    display: inline-block;
+    padding-left: 32px; } }
