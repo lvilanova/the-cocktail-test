@@ -59,7 +59,7 @@ body {
 
 .content {
   background-color: #f2f2f2;
-  box-shadow: 0px 2px #a6a6a6;
+  box-shadow: 0px 2px #616469;
   border-radius: 3px;
   padding-top: 4px;
   -webkit-animation: fadeEffect 1s;
@@ -122,7 +122,7 @@ body {
   .block ul {
     padding-left: 16px;
     list-style: none;
-    font-size: 14px; }
+    font-size: 15px; }
     .block ul li {
       margin-bottom: 16px; }
     .block ul li::before {
@@ -134,7 +134,7 @@ body {
   .block .block__title {
     font-weight: bold;
     font-size: 16px;
-    color: #0066cc;
+    color: #105AA3;
     text-align: center; }
   .block .block__radio {
     position: absolute;
@@ -153,7 +153,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #a6a6a6; }
+  color: #616469; }
 
 .checkcontainer input {
   position: absolute;
@@ -249,7 +249,7 @@ body {
       padding-left: 16px; }
   .content_tab2 ul {
     font-size: 14px;
-    color: #a6a6a6;
+    color: #616469;
     line-height: 22px; }
   .content_tab2 .tab2__title {
     font-size: 18px;
@@ -258,7 +258,7 @@ body {
     color: #003970; }
   .content_tab2 .tab2__text {
     font-size: 14px;
-    color: #a6a6a6;
+    color: #616469;
     line-height: 22px; }
   .content_tab2 .tab2__link {
     font-size: 14px;

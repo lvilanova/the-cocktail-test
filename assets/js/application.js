@@ -32,6 +32,12 @@ $(document).ready(function () {
     };
 
 
+    $(".checkcontainer").click(function (evt) {
 
+        if ($(this).hasClass("active")) {
+            console.log("tiene clase");
+        }
+
+    });
 
 });
