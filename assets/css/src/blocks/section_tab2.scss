@@ -1,62 +1,78 @@
-.content_tab2{
-    background-color:$white;
-    padding:$lg-spacing;
-    border:1px solid $grey-light;
-    .content_tab2__block{
-        position:relative;
-        padding-bottom:$lg-spacing;
-
+.content_tab2 {
+    background-color: $white;
+    padding: $lg-spacing;
+    border: 1px solid $grey-light;
+    .pt-bg{
+        padding-top:0;
     }
-    .txt_sm{
-        padding-left:$lg-spacing;
+    .content_tab2__block {
+        position: relative;
+        padding-bottom: $lg-spacing;
     }
-    .col{
-        padding:$lg-spacing;
+    .txt_sm {
+        padding-left: $lg-spacing;
     }
-    .title{
-        color:$blue-lighter;
-        font-size:24px;
+    .col {
+        padding-right: $lg-spacing;
+        padding-left: $lg-spacing;
+    }
+    .title {
+        color: $blue-lighter;
+        font-size: 24px;
         text-align: left;
-        &:before{
-            content:url('../img/angle-down-blue.svg');
+        &:before {
+            content: url('../img/angle-down-blue.svg');
             padding-right: 8px;
         }
     }
-    .tab2__title{
-        font-size:18px;
-        font-weight:bold;
-        font-family:$roboto-slab;
-        color:$blue;
+    ul {
+        font-size: 14px;
+        color: $grey;
     }
-    .tab2__text{
-        font-size:14px;
-        color:$grey;
+    .tab2__title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: $roboto-slab;
+        color: $blue;
+    }
+    .tab2__text {
+        font-size: 14px;
+        color: $grey;
         line-height: 22px;
     }
-    .tab2__link{
-        font-size:14px;
-        font-weight:bold;
-        color:$blue-lighter;
-        text-decoration:none;
-        position:absolute;
-        bottom:$lg-spacing;
-        &.nav:after{
-            content:url('../img/angle-down-blue.svg');
-            position:relative;
-            top:$sm-spacing;
+    .tab2__link {
+        font-size: 14px;
+        font-weight: bold;
+        color: $blue-lighter;
+        text-decoration: none;
+        position: inherit;
+        bottom: $lg-spacing;
+        &.nav:after {
+            content: url('../img/angle-down-blue.svg');
+            position: relative;
+            top: $sm-spacing;
             padding-left: $lg-spacing;
         }
     }
 }
-.img{
+
+.img {
     width: 100%;
     height: auto;
 }
 
-.border_grey{
-    border:1px solid $grey-light;
+.border_grey {
+    border: 1px solid $grey-light;
 }
 
 @media only screen and (min-width: $small-desktop) {
-   
+    .content_tab2 {
+        .col{
+            padding-bottom: $lg-spacing;
+
+        }
+        .tab2__link{
+            position:absolute;
+        }
+    }
 }

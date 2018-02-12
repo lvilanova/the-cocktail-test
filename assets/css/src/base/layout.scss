@@ -37,10 +37,17 @@ body {
 .no_bt{
   border-top:0!important;
 }
+.no_bb{
+  border-bottom:0!important;
+}
 .txt_sm{
   color:$blue;
   font-size:12px;
 }
+.pt-bg{
+  padding-top:$bg-spacing;
+}
+
   @media only screen and (min-width: $small-desktop) {
   
      

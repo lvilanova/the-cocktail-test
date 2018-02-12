@@ -71,9 +71,15 @@ body {
 .no_bt {
   border-top: 0 !important; }
 
+.no_bb {
+  border-bottom: 0 !important; }
+
 .txt_sm {
   color: #004080;
   font-size: 12px; }
+
+.pt-bg {
+  padding-top: 32px; }
 
 /* Grid flex-box*/
 .col {
@@ -213,13 +219,16 @@ body {
   background-color: #fff;
   padding: 16px;
   border: 1px solid #f2f2f2; }
+  .content_tab2 .pt-bg {
+    padding-top: 0; }
   .content_tab2 .content_tab2__block {
     position: relative;
     padding-bottom: 16px; }
   .content_tab2 .txt_sm {
     padding-left: 16px; }
   .content_tab2 .col {
-    padding: 16px; }
+    padding-right: 16px;
+    padding-left: 16px; }
   .content_tab2 .title {
     color: #4da6ff;
     font-size: 24px;
@@ -227,6 +236,9 @@ body {
     .content_tab2 .title:before {
       content: url("../img/angle-down-blue.svg");
       padding-right: 8px; }
+  .content_tab2 ul {
+    font-size: 14px;
+    color: #a6a6a6; }
   .content_tab2 .tab2__title {
     font-size: 18px;
     font-weight: bold;
@@ -241,7 +253,7 @@ body {
     font-weight: bold;
     color: #4da6ff;
     text-decoration: none;
-    position: absolute;
+    position: inherit;
     bottom: 16px; }
     .content_tab2 .tab2__link.nav:after {
       content: url("../img/angle-down-blue.svg");
@@ -255,3 +267,9 @@ body {
 
 .border_grey {
   border: 1px solid #f2f2f2; }
+
+@media only screen and (min-width: 1024px) {
+  .content_tab2 .col {
+    padding-bottom: 16px; }
+  .content_tab2 .tab2__link {
+    position: absolute; } }
