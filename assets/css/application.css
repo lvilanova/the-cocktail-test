@@ -214,6 +214,7 @@ body {
   padding: 16px;
   border: 1px solid #f2f2f2; }
   .content_tab2 .content_tab2__block {
+    position: relative;
     padding-bottom: 16px; }
   .content_tab2 .txt_sm {
     padding-left: 16px; }
@@ -233,15 +234,20 @@ body {
     color: #004080; }
   .content_tab2 .tab2__text {
     font-size: 14px;
-    color: #a6a6a6; }
+    color: #a6a6a6;
+    line-height: 22px; }
   .content_tab2 .tab2__link {
     font-size: 14px;
     font-weight: bold;
     color: #4da6ff;
-    text-decoration: none; }
+    text-decoration: none;
+    position: absolute;
+    bottom: 16px; }
     .content_tab2 .tab2__link.nav:after {
       content: url("../img/angle-down-blue.svg");
-      padding-left: 8px; }
+      position: relative;
+      top: 4px;
+      padding-left: 16px; }
 
 .img {
   width: 100%;
