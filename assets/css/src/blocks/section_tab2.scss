@@ -1,0 +1,17 @@
+.content_tab2{
+    background-color:$white;
+    padding:$lg-spacing;
+    border:1px solid $grey-light;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.border_grey{
+    border:1px solid $grey-light;
+}
+
+@media only screen and (min-width: $small-desktop) {
+   
+}
