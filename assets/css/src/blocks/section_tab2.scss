@@ -23,8 +23,15 @@
         font-size: 24px;
         text-align: left;
         &:before {
+            display: inline-block;
             content: url('../img/angle-down-blue.svg');
-            padding-right: 8px;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            padding-right:$lg-spacing;
+            padding-left:$lg-spacing;
         }
     }
     ul {
@@ -51,6 +58,7 @@
         position: inherit;
         bottom: $lg-spacing;
         &.nav:after {
+            display: inline-block;
             content: url('../img/angle-down-blue.svg');
             position: relative;
             top: $sm-spacing;
