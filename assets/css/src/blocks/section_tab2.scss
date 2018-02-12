@@ -1,7 +1,12 @@
 .content_tab2 {
     background-color: $white;
     padding: $lg-spacing;
+    margin-top:$bg-spacing;
     border: 1px solid $grey-light;
+    border-radius: 3px;
+    padding-top: 4px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
     .content_tab2__block {
         position: relative;
         padding-bottom: $lg-spacing;
@@ -62,6 +67,13 @@
         font-size: 14px;
         color: $blue;
     }
+    .content_tab2__adv{
+        font-size:12px;
+        letter-spacing:1.52px;
+        background:$red;
+        color:$white;
+        padding:$sm-spacing;
+    }
 }
 
 .grid-custom {
@@ -90,5 +102,8 @@
     .content_tab2__note {
         display: inline-block;
         padding-left: $bg-spacing;
+    }
+    .content_tab2__adv{
+        float:right;
     }
 }
