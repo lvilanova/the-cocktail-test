@@ -2,9 +2,7 @@
     background-color: $white;
     padding: $lg-spacing;
     border: 1px solid $grey-light;
-    .pt-bg{
-        padding-top:0;
-    }
+
     .content_tab2__block {
         position: relative;
         padding-bottom: $lg-spacing;
@@ -74,5 +72,7 @@
         .tab2__link{
             position:absolute;
         }
+       
     }
+    
 }

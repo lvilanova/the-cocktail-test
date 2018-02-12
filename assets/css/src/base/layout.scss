@@ -44,11 +44,11 @@ body {
   color:$blue;
   font-size:12px;
 }
-.pt-bg{
-  padding-top:$bg-spacing;
-}
+
 
   @media only screen and (min-width: $small-desktop) {
-  
+    .pt-bg{
+      padding-top:$bg-spacing;
+    }
      
   }
