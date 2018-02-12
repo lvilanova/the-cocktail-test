@@ -239,6 +239,9 @@ body {
     font-weight: bold;
     color: #4da6ff;
     text-decoration: none; }
+    .content_tab2 .tab2__link.nav:after {
+      content: url("../img/angle-down-blue.svg");
+      padding-left: 8px; }
 
 .img {
   width: 100%;

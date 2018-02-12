@@ -36,6 +36,10 @@
         font-weight:bold;
         color:$blue-lighter;
         text-decoration:none;
+        &.nav:after{
+            content:url('../img/angle-down-blue.svg');
+            padding-left: 8px;
+        }
     }
 }
 .img{
