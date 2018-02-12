@@ -75,7 +75,7 @@ body {
   border-bottom: 0 !important; }
 
 .txt_sm {
-  color: #004080;
+  color: #003970;
   font-size: 12px; }
 
 @media only screen and (min-width: 1024px) {
@@ -102,7 +102,7 @@ body {
 
 .title {
   text-align: center;
-  color: #004080;
+  color: #003970;
   font-family: "Roboto Slab", sans-serif;
   font-size: 24px; }
   .title .title_bold {
@@ -114,7 +114,7 @@ body {
 .block {
   position: relative;
   background-color: #fff;
-  border: 1px solid #004080;
+  border: 1px solid #003970;
   padding: 4px 16px;
   margin: 16px;
   min-height: 580px;
@@ -198,7 +198,7 @@ body {
     width: 150px;
     font-family: "Roboto Slab", sans-serif;
     font-size: 16px;
-    color: #0066cc;
+    color: #4BA7EE;
     background-color: inherit;
     border: none;
     outline: none;
@@ -207,8 +207,8 @@ body {
     transition: 0.3s;
     font-size: 17px; }
     .tab button.active {
-      color: #004080;
-      border-bottom: 2px solid #004080; }
+      color: #003970;
+      border-bottom: 2px solid #003970; }
 
 @keyframes fadeEffect {
   from {
@@ -234,7 +234,7 @@ body {
     padding-right: 16px;
     padding-left: 16px; }
   .content_tab2 .title {
-    color: #4da6ff;
+    color: #4BA7EE;
     font-size: 24px;
     text-align: left; }
     .content_tab2 .title:before {
@@ -255,7 +255,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     font-family: "Roboto Slab", sans-serif;
-    color: #004080; }
+    color: #003970; }
   .content_tab2 .tab2__text {
     font-size: 14px;
     color: #a6a6a6;
@@ -263,7 +263,7 @@ body {
   .content_tab2 .tab2__link {
     font-size: 14px;
     font-weight: bold;
-    color: #4da6ff;
+    color: #4BA7EE;
     text-decoration: none;
     position: inherit;
     bottom: 16px; }
@@ -278,7 +278,7 @@ body {
   .content_tab2 .content_tab2__note {
     display: inline-block;
     font-size: 14px;
-    color: #004080; }
+    color: #003970; }
   .content_tab2 .content_tab2__adv {
     font-size: 12px;
     letter-spacing: 1.52px;
