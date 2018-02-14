@@ -47,6 +47,24 @@ body {
   font-size: 12px;
 }
 
+.ico {
+  position:relative;
+  top:8px;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  padding-right:$lg-spacing;
+  padding-left:$lg-spacing;
+}
+
+.ico-arrow-up {
+  background-image: url('../img/angle-up-blue.png');
+}
+
+.ico-arrow-down {
+  background-image: url('../img/angle-down-blue.png');
+}
+
 @media only screen and (min-width: $small-desktop) {
   .pt-bg {
     padding-top: $bg-spacing;

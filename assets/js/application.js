@@ -40,4 +40,14 @@ $(document).ready(function () {
 
     });
 
+    //jquery develop for toggle class with slow animation
+    $('.js-click-toggle').click(function (e) {
+        e.preventDefault();
+
+        var notthis = $('.active-toggle').not(this);
+        notthis.find('.ico-arrow-down').addClass('ico-arrow-up').removeClass('ico-arrow-down');
+        $(this).toggleClass('active-toggle').next().slideToggle("slow");
+        $(this).children('i').toggleClass('ico-arrow-up ico-arrow-down');
+    });
+
 });

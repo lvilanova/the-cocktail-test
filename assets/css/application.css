@@ -78,6 +78,21 @@ body {
   color: #003970;
   font-size: 12px; }
 
+.ico {
+  position: relative;
+  top: 8px;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  padding-right: 16px;
+  padding-left: 16px; }
+
+.ico-arrow-up {
+  background-image: url("../img/angle-up-blue.png"); }
+
+.ico-arrow-down {
+  background-image: url("../img/angle-down-blue.png"); }
+
 @media only screen and (min-width: 1024px) {
   .pt-bg {
     padding-top: 32px; } }
@@ -237,16 +252,6 @@ body {
     color: #4BA7EE;
     font-size: 24px;
     text-align: left; }
-    .content_tab2 .title:before {
-      display: inline-block;
-      content: url("../img/angle-down-blue.svg");
-      -webkit-transform: rotate(180deg);
-      -moz-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      transform: rotate(180deg);
-      padding-right: 16px;
-      padding-left: 16px; }
   .content_tab2 ul {
     font-size: 14px;
     color: #616469;
