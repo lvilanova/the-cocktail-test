@@ -65,8 +65,21 @@ body {
   background-image: url('../img/angle-down-blue.png');
 }
 
+.ico-star{
+  position:relative;
+  top:10px;
+  background-image: url('../img/star-orange.svg');
+  background-repeat: no-repeat;
+  padding-right:$lg-spacing;
+}
+
+
+
 @media only screen and (min-width: $small-desktop) {
   .pt-bg {
     padding-top: $bg-spacing;
+  }
+  .ico-star{
+    top:15px;
   }
 }

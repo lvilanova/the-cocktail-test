@@ -6,17 +6,13 @@
     font-size: 24px;
     .title_bold {
         font-weight: bold;
-        &:after {
-            content: url('../img/star-orange.svg');
-            padding-left: 8px;
-        }
     }
 }
 
 .block {
     position: relative;
     background-color: $white;
-    border: 1px solid $blue;
+    border: 1px solid $blue-lighter;
     padding: $sm-spacing $lg-spacing;
     margin: $lg-spacing;
     min-height: 580px;
@@ -48,6 +44,12 @@
         background-color: $grey-light;
         padding: $lg-spacing;
         margin-bottom: $lg-spacing;
+        &.border-hightlight{
+            border:1px solid $blue-hightlight;
+        }
+    }
+    &.border-hightlight{
+        border:1px solid $blue-hightlight;
     }
 }
 

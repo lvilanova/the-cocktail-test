@@ -50,4 +50,14 @@ $(document).ready(function () {
         $(this).children('i').toggleClass('ico-arrow-up ico-arrow-down');
     });
 
+    //manage hightlight border when a plan is selected in Tab1
+    $('.block__radio').click(function (e) {
+        //e.preventDefault();
+
+        var el = $(this);
+        var parent = el.parents(".js-hightlight");
+        parent.addClass('border-hightlight').siblings().removeClass('border-hightlight');
+
+    });
+
 });
