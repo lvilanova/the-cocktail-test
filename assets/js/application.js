@@ -31,15 +31,6 @@ $(document).ready(function () {
         navTab(event, "tab2");
     };
 
-
-    $(".checkcontainer").click(function (evt) {
-
-        if ($(this).hasClass("active")) {
-            console.log("tiene clase");
-        }
-
-    });
-
     //jquery develop for toggle class with slow animation
     $('.js-click-toggle').click(function (e) {
         e.preventDefault();
